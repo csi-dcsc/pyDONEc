@@ -12,7 +12,8 @@ Lapack copyright: Copyright (c) 2010, Intel Corp.
 Ziggurat copyright: Marsaglia + Tsang / Leong, Zhang et al Ziggurat generator, Copyright (C) 2013  Dirk Eddelbuettel
 
 The library requires numpy and ctypes.
-An example file is provided, with the minimization of a 10 dimensional paraboloid, with measurements affected by gaussian noise. For implementation in separate problem, the authors recommend to carefully considerate the value of the parameter sigma, as the efficiency of the algorithm is severely affected by its value.
+An example file is provided, with the minimization of a 10 dimensional paraboloid, with measurements affected by gaussian noise. 
+For different problems the hyper-parameters might require tuning. See https://arxiv.org/abs/1603.09620 for some theoretical and practical insight into the hyper-parameters.
 
 
 

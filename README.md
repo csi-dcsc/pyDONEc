@@ -8,7 +8,9 @@ Nonlinear Extremum-seeker (DONE) algorithm, presented by the CSI group at TU Del
 The C++ implementation uses LAPACK, OPENBLAS, and ZIGGURAT. The corresponding 64bit dlls are included in the package.
  
 Openblas copyright: Copyright 2009, 2010 The University of Texas at Austin.
+
 Lapack copyright: Copyright (c) 2010, Intel Corp.
+
 Ziggurat copyright: Marsaglia + Tsang / Leong, Zhang et al Ziggurat generator, Copyright (C) 2013  Dirk Eddelbuettel
 
 The library requires numpy and ctypes.

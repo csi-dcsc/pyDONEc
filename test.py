@@ -1,6 +1,8 @@
 import numpy as np
 import pyDONEc
 
+
+#test function to minimize
 def paraboloid(x):
     centers=np.linspace(-10.0,10.0,degrees_of_freedom)
     parab= np.sum((x-centers)**2)
@@ -8,7 +10,7 @@ def paraboloid(x):
 
     return parab+noise
 
-
+#hyperparameters, see readme
 degrees_of_freedom=10
 initial_guess=np.ones(degrees_of_freedom)*0.3
 lower_bounds=np.ones(degrees_of_freedom)*(-20.0)
@@ -19,7 +21,7 @@ cosine_sigma=0.05
 expl_factors=np.ones(degrees_of_freedom)*0.5
 memory_size=100
 
-
+#initial guess
 min_pos=np.linspace(-10.0,10.0,degrees_of_freedom)
 
 

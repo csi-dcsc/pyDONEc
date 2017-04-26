@@ -1,11 +1,11 @@
 # pyDONEc
-A python implementation of the DONE optimization algorithm. Wraps on a C++ dll
+A python implementation of the DONE optimization algorithm for 64-bit Windows. Wraps on a C++ dll.
 
 
 This is a Python library for fast implementation of the Data-based Online
 Nonlinear Extremum-seeker (DONE) algorithm, presented by the CSI group at TU Delft for, but not limited to sensorless adaptive optics applications.
 
-The C++ implementation uses LAPACK, OPENBLAS, and ZIGGURAT. The corresponding 64bit dlls are included in the package.
+The C++ implementation uses LAPACK, OPENBLAS, and ZIGGURAT. The corresponding 64bit dlls are included in the package. One of the dlls, libopenblas.dll, needs to be extracted from libopenblas.zip found in the dll folder.
  
 Openblas copyright: Copyright 2009, 2010 The University of Texas at Austin.
 
